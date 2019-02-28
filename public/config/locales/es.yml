@@ -2,150 +2,150 @@
 # Google translate
 es:
   brand:
-    title: ArchivesSpace Public Interface
-    title_link_text: Return to the ArchivesSpace homepage
-    home: Home
-    welcome_head: Welcome to ArchivesSpace
+    title: Interfaz pública de ArchivesSpace
+    title_link_text: Volver a la página de inicio de ArchivesSpace
+    home: Página de inicio
+    welcome_head: Bienvenido a ArchivesSpace
     welcome_message: |
-                     <p>Search across our collections, digital materials, and more.</p>
+                     <p>Buscar en nuestros fondos, materiales digitales, y más.</p>
 
-    welcome_search_label: "Find what you're looking for:"
-    welcome_page_title: ArchivesSpace Public Interface
+    welcome_search_label: "Encontrar lo que buscas:"
+    welcome_page_title: Interfaz pública de ArchivesSpace
 
   actions:
-    search: Search
-    search_header: Search The Archives
-    search_within: Search within results
-    search_in: "Search %{type}"
-    new_search: New Search
-    refine_search: Refine Search
-    browse: Browse
-    show_advanced_search: Show Advanced Search
-    hide_advanced_search: Hide Advanced Search
-    backup:  Return to the previous page
-    backup_abbr: Go back
-    cite: Citation
-    bookmark: Bookmark
+    search: Buscar
+    search_header: Buscar los archivos
+    search_within: Buscar en los resultados
+    search_in: "Buscar %{type}"
+    new_search: Búsqueda nueva
+    refine_search: Refinar la búsqueda
+    browse: Navegar
+    show_advanced_search: Mostrar búsqueda avanzada
+    hide_advanced_search: Ocultar búsqueda avanzada
+    backup:  Volver a la página anterior
+    backup_abbr: Volver
+    cite: Citación
+    bookmark: Marcador
     request: Request
-    print: Print
-    print-generating: Generating
-    collection_overview: Collection Overview
-    hierarch: Collection Organization
-    numeric: Container Inventory
-    detailed: Detailed Contents
-    record_details: Record Details
-    clipboard: Copy to clipboard
-    search_add_row: Add a search row
-    search_remove_row: Remove the row below
-    staff_link: Staff Only
+    print: Imprimir
+    print-generating: Generando
+    collection_overview: Resumen del fondo
+    hierarch: Organización del fondo
+    numeric: Inventario de contenedores
+    detailed: Contenidos detallados
+    record_details: Detalles del registro
+    clipboard: Copiar al portapapeles
+    search_add_row: Añadir una búsqueda
+    search_remove_row: Quitar la fila de abajo
+    staff_link: Sólo personal
 
-  page_actions: Page Actions
+  page_actions: Acciones de la página
 
   request:
-    required: required
-    user_name: Your name
-    user_email: Your email address
-    date: Anticipated arrival date
-    note: Note to the staff
-    visit: "Submit a request to visit %{repo_name} to view <strong>%{archival_object}</strong>"
-    submit: Submit Request
-    submitted: Thank you, your request has been submitted.  You will soon receive an email with a copy of your request.
+    required: obligitario
+    user_name: Tu nombre
+    user_email: Tu dirección de correo electrónico
+    date: Fecha de llegada anticipada
+    note: Nota al personal
+    visit: "Presentar una solicitud par visitar %{repo_name} para ver <strong>%{archival_object}</strong>"
+    submit: Presentar solicitud
+    submitted: Gracias, tu solicitud ha sido presentado.  Vas a recibir un correo electrónico con una copia de tu solicitud pronto.
     errors:
-      name: Please enter your name
-      email: Please enter a valid email address
+      name: Por favor, introduce su nombre
+      email: Por favor, introduce una dirección de correo electrónico válida
     email:
-      subject: "Request for %{title}"
+      subject: "Solicitud para %{title}"
 
   search-button:
-    label: Search
-  search-limit: "Limit to %{limit}"
-  search-limiting: "limited to %{limit}"
+    label: Buscar
+  search-limit: "Limitar a %{limit}"
+  search-limiting: "limitado a %{limit}"
   search-limits:
-    all: all record types
-    repository: repositories
-    repositories: repositories
-    resource: collections
-    resources: collections
-    digital: digital materials
-    digital_object: digital materials
+    all: todos tipos de registros
+    repository: repositorio
+    repositories: repositorios
+    resource: fondo
+    resources: fondos
+    digital: materiales digitales
+    digital_object: materiales digitales
     objects: archival or digital records
-    subject: subject
-    agent: content creator
-    agents: content creators
-  search-field: Search field
-  searched-field: "searching %{field}"
+    subject: materia
+    agent: creador de contenido
+    agents: creadores de contenido
+  search-field: Campo de búsqueda
+  searched-field: "buscando %{field}"
 
   pagination:
-    first: First
-    last: Last
+    first: Primero
+    last: Último
     previous: "&#171;"
     next: "&#187;"
-    summary_prefix: Showing
+    summary_prefix: Mostrando
     summary_offset_connector: "-"
-    summary_total_connector: of
-    summary_suffix: Results
-    page_prefix: Page
-    page_connector: of
+    summary_total_connector: de
+    summary_suffix: Resultados
+    page_prefix: Página
+    page_connector: de
 
   search_results:
-    page_title: "Found %{count} Results"
-    results_head: "Showing %{type}: %{start} - %{end} of %{total}"
-    results: Results
-    head_prefix: Found
-    head_suffix: Results
-    searching: Searching
-    search_for: "Search  %{type} where %{conditions}"
-    keyword_contain: "<strong>keyword(s)</strong>: <span class='searchterm'>%{kw}</span>"
-    title_contain: "the <strong>title</strong> contains  <span class='searchterm'>%{kw}</span>"
-    notes_contain: "the <strong>note</strong> contains  <span class='searchterm'>%{kw}</span>"
-    creators_text_contain: "the <strong>creator</strong> contains <span class='searchterm'>%{kw}</span>"
-    subjects_text_contain: "the <strong>subject</strong> contains <span class='searchterm'>%{kw}</span>"
-    identifier_contain: "the <strong>identifier</strong> contains <span class='searchterm'>%{kw}</span>"
-    four_part_id_contain: "the <strong>identifier</strong> contains <span class='searchterm'>%{kw}</span>"
-    in_repository: " in <strong>%{name}</strong>"
-    year_range: " from <strong>%{from_year}</strong> to <strong>%{to_year}</strong>"
+    page_title: "Encontrado %{count} resultados"
+    results_head: "Mostrando %{type}: %{start} - %{end} de %{total}"
+    results: Resultados
+    head_prefix: Encontrado
+    head_suffix: Resultados
+    searching: Buscando
+    search_for: "Buscar  %{type} donde %{conditions}"
+    keyword_contain: "<strong>Palabra clave</strong>: <span class='searchterm'>%{kw}</span>"
+    title_contain: "el <strong>título</strong> contiene  <span class='searchterm'>%{kw}</span>"
+    notes_contain: "la <strong>nota</strong> contiene  <span class='searchterm'>%{kw}</span>"
+    creators_text_contain: "el <strong>creador</strong> contiene <span class='searchterm'>%{kw}</span>"
+    subjects_text_contain: "la <strong>materia</strong> contiene <span class='searchterm'>%{kw}</span>"
+    identifier_contain: "el <strong>identificador</strong> contiene <span class='searchterm'>%{kw}</span>"
+    four_part_id_contain: "el <strong>identificador</strong> contiene <span class='searchterm'>%{kw}</span>"
+    in_repository: " en <strong>%{name}</strong>"
+    year_range: " de <strong>%{from_year}</strong> a <strong>%{to_year}</strong>"
     anything: "*"
-    search_term: Search term
-    title: All Records
-    error: Your search could not be completed due to an unexpected error
-    no_results: No Records Found
-    no_results_prefix: There were no search results for
-    result_type: Record Type
-    result_title: Title
-    filter_by: Filter By
-    filtered_by: Filtered By
-    remove_filter: Remove this filter
-    modified: Last Modified
-    created: Created
-    text_placeholder: Filter by text
-    clear_all: Clear All
-    created: Created
-    modified: Modified
-    component_switch: Include Components
-    more_facets: more
-    fewer_facets: less
+    search_term: Término
+    title: Todos los registros
+    error: Tu búsqueda no puede sido completado debido a un error inesperado
+    no_results: No registros estado encontrado
+    no_results_prefix: No hay resultados do búsqueda para
+    result_type: Tipo de resultado
+    result_title: Título
+    filter_by: Filtrar por
+    filtered_by: Filtrado por
+    remove_filter: Retirar este filtro
+    modified: Última modificación
+    created: Creado
+    text_placeholder: Filtrar por texto
+    clear_all: Borrar todo
+    created: Creado
+    modified: Modificado
+    component_switch: Mostrar componentes
+    more_facets: más
+    fewer_facets: menos
     op:
-      AND: and
-      OR:  or
-      NOT:  and not
+      AND: "y"
+      OR:  o
+      NOT:  y no
     op_first_row:
-      NOT: not
+      NOT: "no"
     filter:
-      head: Filter Results
-      add: Additional filters
-      form: Searching within results
-      show_fewer: Show fewer
-      show_more: Show more
-      query: Text
-      subjects: Subject
-      primary_type: Type
-      repository: Repository
-      used_within_published_repository: Repository
-      creators: Creator
-      fullrecord: Keyword
-      subjects_text: Subject
-      title: Title
-      creators_text: Creator
+      head: Filtrar resultados
+      add: Filtros adicionales
+      form: Buscando dentro los resultados
+      show_fewer: Mostrar menos
+      show_more: Mostrar más
+      query: Texto
+      subjects: Materia
+      primary_type: Tipo
+      repository: Repositorio
+      used_within_published_repository: Repositorio
+      creators: Creador
+      fullrecord: Palabra clave
+      subjects_text: Materia
+      title: Título
+      creators_text: Creador
       scope: Scope
       notes: Notes
       identifier: Identifier
